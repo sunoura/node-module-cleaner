@@ -1,6 +1,6 @@
 {
     "name": "node-module-cleaner",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Recursively find and delete node_modules folders from a directory tree.",
     "bin": {
         "node-module-cleaner": "index.js"
