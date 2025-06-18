@@ -1,6 +1,6 @@
 {
     "name": "clean-nm",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Recursively find and delete node_modules folders (or any named folder) from a directory tree.",
     "bin": {
         "clean-nm": "index.js"
