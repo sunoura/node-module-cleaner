@@ -1,9 +1,9 @@
 {
-    "name": "clean-nm",
+    "name": "node-module-cleaner",
     "version": "1.0.1",
-    "description": "Recursively find and delete node_modules folders (or any named folder) from a directory tree.",
+    "description": "Recursively find and delete node_modules folders from a directory tree.",
     "bin": {
-        "clean-nm": "index.js"
+        "node-module-cleaner": "index.js"
     },
     "files": [
         "index.js"
@@ -22,7 +22,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/yourusername/clean-nm.git"
+        "url": "git+https://github.com/sunoura/node-module-cleaner.git"
     },
     "preferGlobal": true,
     "dependencies": {

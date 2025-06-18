@@ -1,27 +1,27 @@
-# clean-nm
+# node-module-cleaner
 
-A simple and efficient CLI tool to **recursively find and delete `node_modules` folders** (or any named folder) from a directory tree — with size estimates and confirmation prompts.
+A simple and efficient CLI tool to **recursively find and delete `node_modules` folders** from a directory tree — with size estimates and confirmation prompts.
 
 ## Features
 
--  Scans for all folders matching a given name (default: `node_modules`)
--  Calculates and displays disk space usage per folder
--  Confirms before deletion (optional `--force` flag to skip)
--  Skips nested matches to avoid double-counting
--  Fast and dependency-free (uses native Node.js)
+-   Scans for all folders matching a given name (default: `node_modules`)
+-   Calculates and displays disk space usage per folder
+-   Confirms before deletion (optional `--force` flag to skip)
+-   Skips nested matches to avoid double-counting
+-   Fast and dependency-free (uses native Node.js)
 
 ---
 
 ## Installation
 
 ```bash
-npm install -g clean-nm
+npm install -g node-module-cleaner
 ```
 
 Or use directly via `npx`:
 
 ```bash
-npx clean-nm
+npx node-module-cleaner
 ```
 
 ---
@@ -29,7 +29,7 @@ npx clean-nm
 ## Usage
 
 ```bash
-clean-nm [options]
+node-module-cleaner [options]
 ```
 
 ### Options
@@ -48,19 +48,19 @@ clean-nm [options]
 ### Delete all `node_modules` folders under current directory
 
 ```bash
-npx clean-nm
+npx node-module-cleaner
 ```
 
 ### Delete all `dist` folders under a specific project directory
 
 ```bash
-npx clean-nm -p ./projects/my-app -n dist
+npx node-module-cleaner -p ./projects/my-app -n dist
 ```
 
 ### Force deletion without confirmation
 
 ```bash
-npx clean-nm -f
+npx node-module-cleaner -f
 ```
 
 ---
@@ -94,9 +94,9 @@ Cleanup completed!
 
 `node_modules` folders can eat up **gigabytes** of space. This tool helps you:
 
--  Quickly reclaim disk space
--  Clean up old or abandoned project directories
--  Gain visibility into how much space dependencies are taking
+-   Quickly reclaim disk space
+-   Clean up old or abandoned project directories
+-   Gain visibility into how much space dependencies are taking
 
 ---
 
