@@ -1,0 +1,31 @@
+{
+    "name": "clean-nm",
+    "version": "1.0.0",
+    "description": "Recursively find and delete node_modules folders (or any named folder) from a directory tree.",
+    "bin": {
+        "clean-nm": "index.js"
+    },
+    "files": [
+        "index.js"
+    ],
+    "keywords": [
+        "node_modules",
+        "cleanup",
+        "disk-space",
+        "cli",
+        "tool",
+        "delete",
+        "folders",
+        "recursive"
+    ],
+    "author": "Sunny",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yourusername/clean-nm.git"
+    },
+    "preferGlobal": true,
+    "dependencies": {
+        "yargs": "^17.7.2"
+    }
+}
